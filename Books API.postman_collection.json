@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "a9f4162f-7268-4147-be86-ffee1de0d579",
+		"name": "Books API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21302233"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "My custom agent",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.nytimes.com/svc/books/v3/lists.json?api-key=R7R0jNDFGSWVXXGDOxi6pzlxICW3goV6&list=hardcover-nonfiction",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nytimes",
+						"com"
+					],
+					"path": [
+						"svc",
+						"books",
+						"v3",
+						"lists.json"
+					],
+					"query": [
+						{
+							"key": "api-key",
+							"value": "R7R0jNDFGSWVXXGDOxi6pzlxICW3goV6"
+						},
+						{
+							"key": "list",
+							"value": "hardcover-nonfiction"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
